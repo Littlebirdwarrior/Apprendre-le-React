@@ -1,0 +1,17 @@
+/* Css Reset*/
+
+audio,
+video {
+    display: inline-block;
+}
+
+img {
+    border-style: none;
+}
+
+ul, li {
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}

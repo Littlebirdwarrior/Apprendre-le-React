@@ -1,64 +1,96 @@
 //La Liste de mes produits
 
-import {product} from "../types/product";
+import monstera from '../assets/monstera.jpg'
 
-export const plantList: product[] = [
+import {Product} from "../types/product";
+
+export const plantList: Product[] = [
     {
         name: 'monstera',
         category: 'classique',
         id: '1ed',
         isBestSale : true,
-        price: 8
+        light: 2,
+        water: 3,
+        price: 8,
+        cover: monstera
     },
     {
         name: 'ficus lyrata',
         category: 'classique',
         id: '2ab',
-        price: 8
+        light: 1,
+        water: 3,
+        price: 8,
+        cover: monstera
     },
     {
         name: 'pothos argenté',
         category: 'classique',
         id: '3sd',
         isSpecialOffer: true,
-        price: 8
+        light: 3,
+        water: 1,
+        price: 8,
+        cover: monstera
     },
     {
         name: 'yucca',
         category: 'classique',
         id: '4kk',
-        price: 8
+        light: 2,
+        water: 1,
+        price: 5,
+        cover: monstera
     },
     {
         name: 'olivier',
         category: 'extérieur',
         id: '5pl',
         isAvailable: false,
-        price: 8
+        light: 1,
+        water: 2,
+        price: 8,
+        cover: monstera
     },
     {
         name: 'géranium',
         category: 'extérieur',
         id: '6uo',
-        price: 8,
+        isAvailable: false,
+        light: 2,
+        water: 3,
+        price: 5,
+        cover: monstera
     },
     {
         name: 'basilique',
         category: 'extérieur',
         id: '7ie',
-        isSpecialOffer: true
+        light: 2,
+        water: 1,
+        isSpecialOffer: true,
+        price: 24,
+        cover: monstera
     },
     {
         name: 'aloe',
         category: 'plante grasse',
         id: '8fp',
         isSpecialOffer: true,
-        price: 8,
+        light: 1,
+        water: 1,
+        price: 13,
+        cover: monstera
     },
     {
         name: 'succulente',
         category: 'plante grasse',
+        isAvailable: false,
         id: '9vn',
-        price: 8
+        light: 2,
+        water: 3,
+        price: 8,
+        cover: monstera
     }
 ]

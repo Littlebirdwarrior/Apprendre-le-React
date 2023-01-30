@@ -1,5 +1,9 @@
 /* Css Reset*/
 
+* {
+    box-sizing: border-box;
+}
+
 audio,
 video {
     display: inline-block;

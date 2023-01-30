@@ -1,17 +1,17 @@
 import '../styles/Cart.css'
 import {plantList} from '../datas/plantList'
-import {product} from "../types/product";
+import {Product} from "../types/product";
 
-function displayProduct(product: product) {
-    return(
+function displayProduct(product: Product) {
+    return (
         <li> {product.name} : {product.price} €</li>
     )
 }
 
 //Nb; pour rappeller une const, le $ n'est pas nécessaire en react
-function Cart(){
+function Cart() {
 
-    return(
+    return (
         <div className='lmj-cart'>
             <h2>Panier</h2>
             <ul>

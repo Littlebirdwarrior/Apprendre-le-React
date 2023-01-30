@@ -1,4 +1,3 @@
-
 //mes styles
 import '@csstools/normalize.css';
 /* rest of app styles */
@@ -10,16 +9,14 @@ import Cart from './Cart';
 import ShoppingList from "./ShoppingList";
 
 
-
-
 function App() {
-  return (
-      <div>
-        <Banner />
-        <Cart/>
-        <ShoppingList/>
-      </div>
-  )
+    return (
+        <div>
+            <Banner/>
+            <Cart/>
+            <ShoppingList/>
+        </div>
+    )
 }
 
 export default App
